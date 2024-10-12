@@ -17,7 +17,7 @@ app.use('/inventory', invetoryRoute);
 app.use('/supplier', supplierRoute);
 
 app.get("/", (req, res) => {
-    res.send("<center><h1>Inventory Manegement System</h1></center>")
+    res.send("<center><h1>Inventory Manegement System</h1><br/><h3>Backend Server is running.....</h3><br/><h3>If you have a Any information about of this project <a href=  >Click Here<a/></h3></center>")
 })
 
 app.listen(port , ()=>{
